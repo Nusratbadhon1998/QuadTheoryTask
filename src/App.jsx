@@ -5,14 +5,19 @@ import './App.css'
 import Nav from './components/Nav/Nav'
 import Container from './components/Container'
 import Banner from './components/Banner/Banner'
+import Popular from './components/Popular/Popular'
+import Form from './components/Form/Form'
+import Recommend from './components/Recommend/Recommend'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
       <>
       <Nav/>
-      <Banner/></>
+      <Banner/>
+      <Popular/>
+      <Recommend/>
+      </>
   )
 }
 
