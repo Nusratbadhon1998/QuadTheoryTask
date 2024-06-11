@@ -13,9 +13,9 @@ function Nav() {
       <div className="flex justify-around">
         <div className="font-bold open-sans text-2xl">pti.</div>
         <form className="flex gap-4 relative">
-          <input placeholder="Search AudioBook" className=" w-96 rounded-lg pl-9 placeholder:font-semibold " type="text" name="" id="" />
+          <input placeholder="Search AudioBook" className="border w-96 rounded-lg pl-9 placeholder:font-semibold " type="text" name="" id="" />
           <IoSearchOutline className="absolute text-[#fd6011] left-3 top-4"/>
-          <select className=" w-40 p-3 rounded-lg uppercase font-bold" name="menu" id="menu">
+          <select className="border w-40 p-3 rounded-lg uppercase font-bold" name="menu" id="menu">
             <option className="uppercase" selected disabled value="Menu">
               Menu
             </option>

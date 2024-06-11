@@ -4,14 +4,15 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Nav from './components/Nav/Nav'
 import Container from './components/Container'
+import Banner from './components/Banner/Banner'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className='bg-[#eeeff0] min-h-screen max-w-full'>
+      <>
       <Nav/>
-    </div>
+      <Banner/></>
   )
 }
 
