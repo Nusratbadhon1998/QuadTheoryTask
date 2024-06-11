@@ -1,24 +1,21 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import Nav from './components/Nav/Nav'
-import Container from './components/Container'
-import Banner from './components/Banner/Banner'
-import Popular from './components/Popular/Popular'
-import Form from './components/Form/Form'
-import Recommend from './components/Recommend/Recommend'
+import Nav from "./components/Nav/Nav";
+import Banner from "./components/Banner/Banner";
+import Popular from "./components/Popular/Popular";
+import Recommend from "./components/Recommend/Recommend";
+import Footer from "./components/Footer/Footer";
 
 function App() {
-
   return (
-      <>
-      <Nav/>
-      <Banner/>
-      <Popular/>
-      <Recommend/>
-      </>
-  )
+    <div className="bg-[#eeeff0] open-sans">
+      <Nav />
+      <Banner />
+      <section>
+        <Popular />
+        <Recommend />
+      </section>
+      <Footer />
+    </div>
+  );
 }
 
-export default App
+export default App;
