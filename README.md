@@ -11,21 +11,34 @@ Welcome to the Food Recommendation Web App! This application helps you discover 
 
 2. **Navigate to the Project Directory**
 
-3. ** Install Dependencies:**
+3. **Install Dependencies:**
 
-```bash
-npm install
+   ```bash
+   npm install
 
-4. **Start the Development Server:**
 
-```bash
-npm run dev
+4. **Clone the Repository:**
+    ```bash
+    npm run dev
 
-5. **View the App:
+5. **View the App:**
 Open your web browser and go to http://localhost:5173 to view the app.**
 
-Technologies Used
-React.js
-Material-UI
-Swiper.js
-Axios
+
+
+
+## Technology Used
+
+1. React Js
+2. Material Ui.
+3. Tailwind CSS
+4. Swiper Js.
+5. Axios.
+6. React Hook Form
+
+
+
+## Site Link
+-[LiveLink](https://food-recommendation-nurstabadhon.netlify.app/)
+
+
