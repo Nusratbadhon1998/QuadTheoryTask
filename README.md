@@ -7,7 +7,7 @@ Welcome to the Food Recommendation Web App! This application helps you discover 
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/food-recommendation-web-app.git
+   git clone https://github.com/Nusratbadhon1998/QuadTheoryTask.git
 
 2. **Navigate to the Project Directory**
 
